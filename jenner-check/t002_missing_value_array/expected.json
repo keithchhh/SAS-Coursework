@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-08-20T11:35:00Z",
+  "_captured_run_id": "r_1590e3983b8549d4b108c819c9c29ece",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote adult_census_missing_raw (5 rows, 5 columns).",
+    "NOTE: Wrote adult_census_missing (5 rows, 5 columns)."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

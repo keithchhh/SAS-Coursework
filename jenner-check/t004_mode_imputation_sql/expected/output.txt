@@ -1,0 +1,10 @@
+
+  Obs             workclass            occupation  age
+    1  Private               Adm-clerical           25
+    2  Private               Craft-repair           41
+    3  Private               Exec-managerial        33
+    4  Private               Adm-clerical           50
+    5  State-gov             Prof-specialty         29
+    6  Private               Adm-clerical           38
+    7  Private               Craft-repair           45
+

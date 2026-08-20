@@ -1,0 +1,30 @@
+
+  Obs         workclass     education  native_country  income  age
+    1  Private           Bachelors     United-States   <=50K    25
+    2                    HS-grad                       <=50K    41
+    3  Self-emp-not-inc  Masters       United-States   >50K     33
+    4                                  Mexico          <=50K    50
+    5  State-gov         Some-college  United-States   >50K     29
+
+                                                   The FREQ Procedure
+
+                                              Cumulative    Cumulative
+workclass           Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------------------
+Private                     1     33.33            1        33.33
+Self-emp-not-inc            1     33.33            2        66.67
+State-gov                   1     33.33            3       100.00
+
+                                          Cumulative    Cumulative
+education       Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------------
+Bachelors               1     25.00            1        25.00
+HS-grad                 1     25.00            2        50.00
+Masters                 1     25.00            3        75.00
+Some-college            1     25.00            4       100.00
+
+                                            Cumulative    Cumulative
+native_country    Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------------
+Mexico                    1     25.00            1        25.00
+United-States             3     75.00            4       100.00

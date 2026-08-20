@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-08-20T11:35:00Z",
+  "_captured_run_id": "r_57b3f9614f154d228b986ca9b1f696d5",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Macro variable MODE_WORKCLASS = Private",
+    "Macro variable MODE_OCCUPATION = Adm-clerical",
+    "NOTE: PROC PRINT completed: 7 observations printed, 3 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

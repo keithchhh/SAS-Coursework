@@ -1,0 +1,32 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA adult_census_derived
+
+NOTE: Processing inline DATALINES (10 lines)
+
+NOTE: Read 10 rows from DATALINES.
+NOTE: Wrote adult_census_derived (10 rows, 1 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC MEANS
+NOTE: Output dataset Age_Mean_Std has 1 observations and 2 variables.
+NOTE: PROC MEANS statement used.
+NOTE: DATA _null_
+
+Possible Outlier Value of Age is 150
+
+NOTE: Read 10 rows from adult_census_derived.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA adult_census_age_outlier
+
+
+NOTE: Read 10 rows from adult_census_derived.
+NOTE: Wrote adult_census_age_outlier (9 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=adult_census_age_outlier
+
+NOTE: PROC PRINT completed: 9 observations printed, 3 variables

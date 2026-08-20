@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_mode_imputation_sql",
+  "source_file": "Data Preparation /FinalProject.sas",
+  "source_blob_sha": "046674628928906d905966bcf939f30ff6e76edf",
+  "source_commit": "6d10bfc6852f9fd7fa578d95faf24079568d1cd8",
+  "notes": "PROC SQL mode-imputation pass (script lines 126-177): GROUP BY + ORDER BY freq DESC to find the modal workclass/occupation, SELECT ... INTO :macro to capture it, then a DATA step that fills missing values using the macro variable. A 7-row inline sample (one row with missing workclass/occupation, read via list input so the '.' token becomes true character-missing per SAS 9.4 list-input rules) stands in for adult.csv."
+}

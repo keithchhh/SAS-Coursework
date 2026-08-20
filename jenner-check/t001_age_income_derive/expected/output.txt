@@ -1,0 +1,29 @@
+
+  Obs  income  workclass  age  capital_gain  capital_loss  education_num  HighIncome  Capital_Gain_Loss  ageCategory
+    1  <=50K               17             0             0              6           0                  0  Under18
+    2  <=50K               22             0             0              9           0                  0  Young
+    3  >50K                29          5000             0             13           1               5000  Young
+    4  >50K                34             0             0             10           1                  0  MiddleAged
+    5  <=50K               41             0          1200              9           0              -1200  MiddleAged
+    6  >50K                52         15000             0             14           1              15000  Senior
+    7  <=50K               63             0             0              5           0                  0  Senior
+    8  <=50K               71             0             0              9           0                  0  Above65
+    9  <=50K               19             0             0             10           0                  0  Young
+   10  >50K                38          7688             0             13           1               7688  MiddleAged
+
+                                                   The FREQ Procedure
+
+                                         Cumulative    Cumulative
+ageCategory    Frequency    Percent     Frequency      Percent
+--------------------------------------------------------------------
+Above65                1     10.00            1        10.00
+MiddleAged             3     30.00            4        40.00
+Senior                 2     20.00            6        60.00
+Under18                1     10.00            7        70.00
+Young                  3     30.00           10       100.00
+
+                                        Cumulative    Cumulative
+HighIncome    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------------
+0                     6     60.00            6        60.00
+1                     4     40.00           10       100.00

@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_outlier_stddev_detection",
+  "source_file": "Data Preparation /FinalProject.sas",
+  "source_blob_sha": "046674628928906d905966bcf939f30ff6e76edf",
+  "source_commit": "6d10bfc6852f9fd7fa578d95faf24079568d1cd8",
+  "notes": "Standard-deviation outlier-detection pattern for Age (script lines 253-279): PROC MEANS captures mean/std into a one-row summary dataset, then a DATA step uses 'if _n_ = 1 then set <summary>' to broadcast those scalars onto every row and flag/filter values beyond mean +/- 2*std. A 10-row inline sample (including a 150 outlier and a -5 within-bound low value) exercises the detection logic."
+}
