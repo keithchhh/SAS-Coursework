@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_derived_vars_workclass_format",
+  "source_file": "Data Preparation /FinalProject.sas",
+  "source_blob_sha": "046674628928906d905966bcf939f30ff6e76edf",
+  "source_commit": "6d10bfc6852f9fd7fa578d95faf24079568d1cd8",
+  "notes": "Derived-variable pass building AgeGroup and Occupation_Type buckets, plus the custom $workClassFormat collapsing raw workclass levels into Government/Self-employed/Not-employed groups (script lines 180-204). A 7-row inline sample covering each workclass/occupation branch stands in for adult.csv."
+}

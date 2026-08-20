@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_missing_value_array",
+  "source_file": "Data Preparation /FinalProject.sas",
+  "source_blob_sha": "046674628928906d905966bcf939f30ff6e76edf",
+  "source_commit": "6d10bfc6852f9fd7fa578d95faf24079568d1cd8",
+  "notes": "Array-based '?' -> missing value cleanup pass over all character variables (script lines 61-68, ARRAY Chars[*] _char_ loop). A 5-row inline sample carrying the same '?' sentinel values used by the UCI Adult dataset stands in for the original adult.csv."
+}

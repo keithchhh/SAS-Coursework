@@ -1,0 +1,7 @@
+{
+  "bundle": "t007_univariate_normality_logtransform",
+  "source_file": "Data Preparation /FinalProject.sas",
+  "source_blob_sha": "046674628928906d905966bcf939f30ff6e76edf",
+  "source_commit": "6d10bfc6852f9fd7fa578d95faf24079568d1cd8",
+  "notes": "Normality-testing pass for Age (script lines 352-382): PROC UNIVARIATE with the Shapiro-Wilk test plus QQ/histogram plots, followed by a log transform and a second PROC UNIVARIATE pass on the transformed variable. A 12-row inline sample of ages exercises the same statistical logic."
+}

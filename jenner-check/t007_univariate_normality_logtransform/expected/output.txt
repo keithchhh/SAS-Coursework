@@ -1,0 +1,142 @@
+                                                The UNIVARIATE Procedure
+                                                     Variable:  age
+
+                                                        Moments
+
+N                                 12    Sum Weights                       12
+Mean                       33.166667    Sum Observations          398.000000
+Std Deviation               9.693797    Variance                   93.969697
+Skewness                    0.470784    Kurtosis                   -0.264833
+Uncorrected SS          14234.000000    Corrected SS             1033.666667
+Coeff Variation            29.227528    Std Error Mean              2.798358
+
+         Basic Statistical Measures          
+
+Location             Variability             
+--------  ---------  -------------  ---------
+Mean      33.166667  Std Deviation   9.693797
+Median    31.500000  Variance       93.969697
+Mode              .  Range          33.000000
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      19.000000
+1%          19.000000
+5%          19.000000
+10%         22.000000
+25% Q1      26.500000
+50% Median  31.500000
+75% Q3      39.500000
+90%         45.000000
+95%         52.000000
+99%         52.000000
+100% Max    52.000000
+
+          Extreme Observations          
+
+      Lowest               Highest
+    Value       Obs      Value       Obs
+---------  --------  ---------  --------
+19.000000         6  36.000000         8
+22.000000         7  38.000000        12
+25.000000         1  41.000000         5
+28.000000         3  45.000000         9
+29.000000        11  52.000000        10
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.977925674  0.974020545
+Kolmogorov-Smirnov  0.128041022  0.975086312
+Anderson-Darling    0.143009664      0.15
+Cramer-von Mises    0.020329736  0.997986442
+
+
+                                               Tests for Location: Mu0=0
+ 
+                                    Test           -Statistic-    -----p Value------
+
+                                    Student's t    t  11.85219    Pr > |t|    <.0001
+                                    Sign           M         6    Pr >= |M|   0.0005
+                                    Signed Rank    S        39    Pr >= |S|   0.0005
+
+                                                The UNIVARIATE Procedure
+                                                   Variable:  log_Age
+
+                                                        Moments
+
+N                                 12    Sum Weights                       12
+Mean                        3.462012    Sum Observations           41.544146
+Std Deviation               0.295778    Variance                    0.087484
+Skewness                   -0.110179    Kurtosis                   -0.509724
+Uncorrected SS            144.788668    Corrected SS                0.962329
+Coeff Variation             8.543521    Std Error Mean              0.085384
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      3.462012  Std Deviation  0.295778
+Median    3.448852  Variance       0.087484
+Mode             .  Range          1.006805
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      2.944439
+1%          2.944439
+5%          2.944439
+10%         3.091042
+25% Q1      3.275540
+50% Median  3.448852
+75% Q3      3.675579
+90%         3.806662
+95%         3.951244
+99%         3.951244
+100% Max    3.951244
+
+         Extreme Observations         
+
+      Lowest             Highest
+   Value       Obs     Value       Obs
+--------  --------  --------  --------
+2.944439         6  3.583519         8
+3.091042         7  3.637586        12
+3.218876         1  3.713572         5
+3.332205         3  3.806662         9
+3.367296        11  3.951244        10
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.991029461  0.999891343
+Kolmogorov-Smirnov  0.081452104  0.999969141
+Anderson-Darling    0.092403099      0.15
+Cramer-von Mises    0.012060983  1.000003565
+
+
+                                               Tests for Location: Mu0=0
+ 
+                                    Test           -Statistic-    -----p Value------
+
+                                    Student's t    t  40.54653    Pr > |t|    <.0001
+                                    Sign           M         6    Pr >= |M|   0.0005
+                                    Signed Rank    S        39    Pr >= |S|   0.0005
+

@@ -1,0 +1,35 @@
+                                                   The FREQ Procedure
+
+                                    Cumulative    Cumulative
+income    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------
+<=50K             4     57.14            4        57.14
+>50K              3     42.86            7       100.00
+
+                                              Cumulative    Cumulative
+workclass           Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------------------
+Federal-gov                 1     14.29            1        14.29
+Private                     4     57.14            5        71.43
+Self-emp-not-inc            1     14.29            6        85.71
+State-gov                   1     14.29            7       100.00
+
+                                             Cumulative    Cumulative
+occupation         Frequency    Percent     Frequency      Percent
+------------------------------------------------------------------------
+Adm-clerical               1     14.29            1        14.29
+Craft-repair               1     14.29            2        28.57
+Exec-managerial            2     28.57            4        57.14
+Machine-op                 1     14.29            5        71.43
+Prof-specialty             1     14.29            6        85.71
+Sales                      1     14.29            7       100.00
+                                                  The MEANS Procedure
+
+ Variable                      Mean          Maximum          Minimum
+ --------------------------------------------------------------------
+ age                     37.2857143       50.0000000       25.0000000
+ capital_gain_loss     2471.4285714     8000.0000000     -200.0000000
+ hours_per_week          46.4285714       60.0000000       35.0000000
+ highincome               0.4285714        1.0000000        0.0000000
+ --------------------------------------------------------------------
+

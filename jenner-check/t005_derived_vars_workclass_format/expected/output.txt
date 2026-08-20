@@ -1,0 +1,33 @@
+
+  Obs  AgeGroup  Occupation_Type      workclass       occupation  age
+    1  Young     Service          Private        Adm-clerical      17
+    2  Young     Professional     Government     Exec-managerial   25
+    3  Adult     Professional     Self-employed  Prof-specialty    33
+    4  Adult     Service          Government     Farming-fishing   45
+    5  Senior    Sales            Not-employed   Sales             61
+    6  Senior    Professional     Government     Tech-support      70
+    7  Adult     Sales            Self-employed  Priv-house-serv   38
+
+                                                   The FREQ Procedure
+
+                                      Cumulative    Cumulative
+AgeGroup    Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------
+Adult               3     42.86            3        42.86
+Senior              2     28.57            5        71.43
+Young               2     28.57            7       100.00
+
+                                             Cumulative    Cumulative
+Occupation_Type    Frequency    Percent     Frequency      Percent
+------------------------------------------------------------------------
+Professional               3     42.86            3        42.86
+Sales                      2     28.57            5        71.43
+Service                    2     28.57            7       100.00
+
+                                           Cumulative    Cumulative
+workclass        Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------------
+Government               3     42.86            3        42.86
+Not-employed             1     14.29            4        57.14
+Private                  1     14.29            5        71.43
+Self-employed            2     28.57            7       100.00

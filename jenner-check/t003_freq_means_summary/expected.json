@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-08-20T11:35:00Z",
+  "_captured_run_id": "r_be47b03dbe6944708883cc74ee4f5927",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote adult_census_missing (7 rows, 7 columns).",
+    "NOTE: PROC FREQ statement used.",
+    "NOTE: PROC MEANS"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

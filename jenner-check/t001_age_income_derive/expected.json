@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-08-20T11:35:00Z",
+  "_captured_run_id": "r_fd6b57915baf4656890f4f7ee9720e8c",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote adult_census_copy (10 rows, 6 columns).",
+    "NOTE: FORMAT ageFormat defined (5 ranges).",
+    "NOTE: Wrote adult_census_new_column (10 rows, 9 columns)."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

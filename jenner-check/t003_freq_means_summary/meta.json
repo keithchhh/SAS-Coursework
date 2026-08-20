@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_freq_means_summary",
+  "source_file": "Data Preparation /FinalProject.sas",
+  "source_blob_sha": "046674628928906d905966bcf939f30ff6e76edf",
+  "source_commit": "6d10bfc6852f9fd7fa578d95faf24079568d1cd8",
+  "notes": "Target-variable summary pass (script lines 89-96): PROC FREQ on income/workclass/occupation, PROC MEANS on age/capital_gain_loss/hours_per_week/highincome. A 7-row inline sample with the post-derivation column shape (highincome and capital_gain_loss already computed, as in the original pipeline) stands in for adult.csv."
+}

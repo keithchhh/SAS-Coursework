@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-08-20T11:35:00Z",
+  "_captured_run_id": "r_760b8fbebb34404ebf127e1266d20d12",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Possible Outlier Value of Age is 150",
+    "NOTE: Wrote adult_census_age_outlier (9 rows, 3 columns)."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
